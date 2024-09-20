@@ -4,6 +4,13 @@
 <head>
     <title>Formulario a CV</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #ffffe0;
+            /* Color de fondo claro */
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,10 +22,10 @@
         <label for="f_nacimiento">Fecha de Nacimiento:</label>
         <input type="date" id="f_nacimiento" name="f_nacimiento" required><br><br>
 
-        <label for="ocupacion">Ocupación:</label>
+        <label for="ocupacion">Ocupacion:</label>
         <input type="text" id="ocupacion" name="ocupacion" required><br><br>
 
-        <label for="contacto">Contacto (teléfono, email):</label>
+        <label for="contacto">Contacto (telefono, email):</label>
         <input type="text" id="contacto" name="contacto" required><br><br>
 
         <label for="nacionalidad">Nacionalidad:</label>
@@ -30,9 +37,9 @@
             <option value="Portugues">Portugués</option>
         </select><br><br>
 
-        <label>Nivel de inglés:</label><br>
+        <label>Nivel de ingles:</label><br>
         <input type="radio" id="basico" name="n_ingles" value="basico">
-        <label for="basico">Básico</label><br>
+        <label for="basico">Basico</label><br>
         <input type="radio" id="intermedio" name="n_ingles" value="intermedio">
         <label for="intermedio">Intermedio</label><br>
         <input type="radio" id="avanzado" name="n_ingles" value="avanzado">
@@ -40,7 +47,7 @@
         <input type="radio" id="fluido" name="n_ingles" value="fluido">
         <label for="fluido">Fluido</label><br><br>
 
-        <label for="programacion">Lenguajes de Programación:</label>
+        <label for="programacion">Lenguajes de Programacion:</label>
         <select class="seleccion" id="programacion" name="programacion">
             <option value="java">Java</option>
             <option value="python">Python</option>
@@ -52,11 +59,11 @@
         <label for="aptitudes">Aptitudes:</label>
         <input type="text" id="aptitudes" name="aptitudes" list="aptitudes_list">
         <datalist id="aptitudes_list">
-            <option value="Comunicación">
-            <option value="Resolución de problemas">
+            <option value="Comunicacion">
+            <option value="Resolucion de problemas">
             <option value="Trabajo en equipo">
             <option value="Inteligencia emocional">
-            <option value="Espíritu crítico">
+            <option value="Espiritu critico">
         </datalist><br><br>
 
         <label>Habilidades:</label><br>
@@ -65,7 +72,7 @@
         <input type="checkbox" id="habilidad2" name="habilidades[]" value="Pensamiento analítico">
         <label for="habilidad2">Pensamiento Analítico</label><br>
         <input type="checkbox" id="habilidad3" name="habilidades[]" value="Resolución de problemas">
-        <label for="habilidad3">Resolución de Problemas</label><br>
+        <label for="habilidad3">Resolucion de Problemas</label><br>
         <input type="checkbox" id="habilidad4" name="habilidades[]" value="Optimista">
         <label for="habilidad4">Optimista</label><br><br>
 
